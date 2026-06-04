@@ -22,7 +22,7 @@ This project programmatically executes the following deep learning formulas:
 | **ReLU Activation** | $A^{[1]} = \max(0, Z^{[1]})$ | Activates hidden neurons, filtering out negative values. |
 | **Error Calculation** | $dZ^{[2]} = A^{[2]} - Y$ | Measures the difference between predictions and true labels. |
 | **Weight Gradients** | $dW = \frac{1}{m} dZ \cdot A^{T}$ | Calculates how much each weight contributed to the error. |
-| **Parameter Update** | $W = W - \alpha \cdot dW$ | Applies learning rate ($\alpha$) to adjust weights and learn. |
+| **Parameter Update** | $W = W - \alpha \cdot dW$ | Applies learning rate ($\alpha$) to adjust weights and learn.|
 
 ---
 
